@@ -11,7 +11,7 @@
    - Configure testing framework (Jest + Testing Library)
    - Create basic folder structure
 
-2. **Component Library** - ⬜ Not Done
+2. **Component Library** - ✅ Completed
    - Create base UI components (Button, Input, Card, etc.)
    - Build layout components (Header, Navigation, Footer)
    - Implement model selector dropdown component
