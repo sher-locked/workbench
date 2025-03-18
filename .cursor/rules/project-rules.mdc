@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project Rules
+----
+1. Be very explicit about which part of the [roadmap.md](mdc:spec/roadmap.md) you are building. 
+2. Follow coding convention specified in [code-guidelines.md](mdc:spec/code-guidelines.md) when writing, editing and refactoring code. 
+3. Critically think through the UI, UX, functionality, composability and maintainability of components, flows and features being built. 
+4. Breakdown each part of the [roadmap.md](mdc:spec/roadmap.md), into subparts, an initial version of which is already present. 
+5. Ask for explicit confirmation after completing each subpart, and explicit confirmation before moving to the next subpart. 
+6. Unit Test, Build, Run, Fix, Handle Edge Cases gracefully while implementing a feature, functionality, UX or bug in the application and ask for explicit intimation that the code is running properly on localhost:3000 before committing any change. 
+7. Once you receive my explicit intimation, update all *.md files [roadmap.md](mdc:spec/roadmap.md), [project-spec.md](mdc:spec/project-spec.md) [system-design.md](mdc:spec/system-design.md) [README.md](mdc:clarifi/README.md) with the necessary changes before committing to git in accordance with the changes discussed in that code change commit. 
+8. Ask for explicit intimation to commit a git version. 
+9. Ask for explicit intimation to push a branch to github. 
+
