@@ -1,0 +1,82 @@
+# .gitignore
+
+# --- Next.js Core ---
+.next/
+out/
+.next-env.d.ts
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env*.local
+
+# --- Dependencies ---
+node_modules/
+.cache/
+.turbo
+dist/
+.serverless/
+.fusebox/
+.webpack/
+.npm
+.yarn/
+.pnpm/
+.pnpm-store/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# --- Testing ---
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Debug Files ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Build Files ---
+.next/
+out/
+*.tsbuildinfo
+
+# --- Supabase Local ---
+supabase/functions/
+supabase/.temp/
+supabase/.env
+supabase/.config/local/
+
+# --- Optional (Uncomment if using) ---
+# LLM Cache
+# .llm_cache/
+
+# Local Dev Data
+# local_data/
+# *.sqlite
+# *.sqlite3
+
+# --- Temporary Files ---
+*.tmp
+*.temp
+*~
