@@ -4,6 +4,7 @@
 
 | Feature Name | Description | Priority | Status |
 |-------------|-------------|----------|--------|
+| **Project Setup** | Initialize Next.js with TypeScript, Tailwind CSS, shadcn/ui, ESLint, Prettier, and testing framework. Set up basic folder structure. | P0 | Completed |
 | **Landing Page** | Sleek, minimal landing page with title, subtitle, and CTA to Input Page. Future versions will include motion primitives. | P1 | Not Started |
 | **Input Text Box** | Hero component for pasting text content with character count and formatting options. | P0 | Not Started |
 | **Model Selector** | Context-rich dropdown allowing selection of 1-3 LLM models with visual cues for cost (INR), performance, and strengths. | P0 | Not Started |
