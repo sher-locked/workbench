@@ -40,16 +40,16 @@ export function TextEditor({
   };
 
   return (
-    <Card className="min-h-[300px]">
-      <CardContent className="p-0">
+    <Card className="min-h-[300px] h-full flex flex-col border-0">
+      <CardContent className="p-0 flex-grow overflow-hidden">
         <Textarea
           value={value}
           onChange={handleTextChange}
           placeholder={placeholder}
-          className="min-h-[300px] resize-none border-0 p-4 focus-visible:ring-0 focus-visible:ring-transparent"
+          className="min-h-[300px] h-full w-full resize-none border-0 p-4 focus-visible:ring-0 focus-visible:ring-transparent overflow-y-auto"
         />
       </CardContent>
-      <CardFooter className="flex items-center justify-between border-t px-4 py-2">
+      <CardFooter className="flex-none flex items-center justify-between border-t px-4 py-2">
         <div className="text-sm text-muted-foreground">
           Plain text formatting
         </div>
